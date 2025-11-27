@@ -1,5 +1,6 @@
-### study-of-basic-gates
-
+# study-of-basic-gates
+### NAME: G SANJAY
+### REGISTER NO: 212224230243
 **AIM:** 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
@@ -64,16 +65,62 @@ Y= A⊕B
 
 **PROGRAM**
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
+module exp_1(a,b,y1,y2,y3,y4,y5,y6,y7);
 
- Developed by: RegisterNumber: 
+input a,b;
+
+output y1,y2,y3,y4,y5,y6,y7;
+
+and g1(y1,a,b);
+
+or g2(y2,a,b);
+
+not g3(y3,a);
+
+nand g4(y4,a,b);
+
+nor g5(y5,a,b);
+
+xor g6(y6,a,b);
+
+xnor g7(y7,a,b);
+
+endmodule
+
+ 
  
 **Logic symbol & Truthtable**
 
-**RTL realization Output:** 
+
+![WhatsApp Image 2024-11-19 at 11 21 50_5c33b1d7](https://github.com/user-attachments/assets/97ab984b-1e86-4c82-a192-d35fdfd0b85c)
+
+![WhatsApp Image 2024-11-19 at 11 21 50_0146962a](https://github.com/user-attachments/assets/8089ec7b-0e61-400e-bd3d-a31e5f61109b)
+
+![WhatsApp Image 2024-11-19 at 11 21 50_8057e96e](https://github.com/user-attachments/assets/b9a91232-88d2-4875-91f9-742658fc71fb)
+
+![WhatsApp Image 2024-11-19 at 11 21 51_862d06d3](https://github.com/user-attachments/assets/9049c604-58a3-48fd-b679-e445e6e6a3a0)
+
+![WhatsApp Image 2024-11-19 at 11 21 51_5f0530a0](https://github.com/user-attachments/assets/b67b059c-fa07-480f-9be2-38bc868f71b6)
+
+![WhatsApp Image 2024-11-19 at 11 21 51_abb527c4](https://github.com/user-attachments/assets/29f4fd21-72eb-4ff5-844f-5728579f8707)
+
+![WhatsApp Image 2024-11-19 at 11 21 51_ae2b2074](https://github.com/user-attachments/assets/2bc3a93c-f681-4b82-8a51-bb99009b0b91)
+
+
+
+
+**RTL realization Output:**
+
+![Screenshot (72)](https://github.com/user-attachments/assets/87415383-483b-4814-a771-3215f3698cb4)
+
 
 **RTL**
 
+![Screenshot (73)](https://github.com/user-attachments/assets/ac124a1f-b855-4b03-9423-54c55168802d)
+
+
 **Result:**
+
+Thus,truth table and logic gates were studied and verified using quartus II using Verilog programming.
 
 
